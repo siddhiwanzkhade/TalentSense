@@ -1,3 +1,5 @@
+## TalentSense
+
 *"***TalentSense***" is my attempt to bring clarity to messy job and salary data and understand how companies hire and pay across roles and locations. — the project focuses on cleaning data and making real sense out of it.*
 
 ## **Project Overview :**
