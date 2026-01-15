@@ -81,6 +81,17 @@ jupyter notebook ingest_clean.ipynb
 # Or run in VS Code with Jupyter extension
 # Simply open ingest_clean.ipynb and run all cells
 ```
+## 📊 Tableau Dashboard
+
+The Tableau dashboard is provided as a `.twb` file.
+
+**Note:** GitHub displays `.twb` files as raw XML.  
+To view the dashboard properly:
+
+1. Download the file:
+   - `talentsense_dashboards.twb`
+2. Open it using **Tableau Desktop**
+3. Connect to the PostgreSQL database when prompted
 
 
 ## Workflow :
