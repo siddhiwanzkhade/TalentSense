@@ -1,4 +1,6 @@
-TalentSense is my attempt to bring clarity to messy job and salary data and understand how companies hire and pay across roles and locations. — the project focuses on cleaning data and making real sense out of it.
+## TalentSense
+
+*"***TalentSense***" is my attempt to bring clarity to messy job and salary data and understand how companies hire and pay across roles and locations. — the project focuses on cleaning data and making real sense out of it.*
 
 ## **Project Overview :**
 
@@ -6,15 +8,9 @@ TalentSense is a data-driven analytics project designed to bring clarity to mess
 
 ## **Key achievements :**
 
-Improved data usability from ~24% raw records to 100% analytics-ready data by validating required fields, filtering incomplete postings, and normalizing mixed compensation formats (hourly, contract, part-time, annual) into standardized monthly salaries.
-
-Built an end-to-end data pipeline to process 124K+ LinkedIn job postings and trained an XGBoost regression
-
-model, achieving an R² of 0.48 for salary prediction.
-
-Generated actionable hiring and salary insights through data visualizations using Matplotlib, Seaborn, Plotly,
-
-and Tableau.
+- Improved data usability from ~24% raw records to 100% analytics-ready data by validating required fields, filtering incomplete postings, and normalizing mixed compensation formats (hourly, contract, part-time, annual) into standardized monthly salaries.
+- Built an end-to-end data pipeline to process 124K+ LinkedIn job postings and trained an XGBoost regression model, achieving an R² of 0.48 for salary prediction.
+- Generated actionable hiring and salary insights through data visualizations using Matplotlib, Seaborn, Plotly,and Tableau.
 
 ## Dataset Description :
 
@@ -69,12 +65,34 @@ and Tableau.
 
 ## **Quick Start :**
 
-Clone the repository
-
-git clone <your-repo-url>
+```bash
+# Clone the repository
+git clone https://github.com/siddhiwanzkhade/TalentSense.git
 cd TalentSense
+```
 
-Requirements 
+```bash
+# Install required packages
+pip install -r requirements.txt
+```
+
+```bash
+# Open Jupyter Notebook
+jupyter notebook ingest_clean.ipynb
+
+# Or run in VS Code with Jupyter extension
+# Simply open ingest_clean.ipynb and run all cells
+```
+
+The Tableau dashboard is provided as a `.twb` file.
+**Note:** GitHub displays `.twb` files as raw XML.  
+To view the dashboard properly:
+
+1. Download the file:
+   - `talentsense_dashboards.twb`
+2. Open it using **Tableau Desktop**
+3. Connect to the PostgreSQL database when prompted
+
 
 ## Workflow :
 
@@ -107,13 +125,10 @@ Requirements
     - MAE
 
 **Results:**
-
 When the models were compared using R², RMSE, and MAE, XGBoost consistently outperformed Random Forest ,achieving **R² ≈ 0.48** with lower prediction error and more stable predictions.
-
 Based on these results, the tuned **XGBoost** model was selected as the final model, as it provides more accurate and reliable salary predictions for this dataset.
 
 **Data Visualization (Tableau)**
-
 - Designed **interactive Tableau dashboards** connected to PostgreSQL
 - Built KPI cards, leaderboards, and analytical charts to explore:
     - Experience-level salary vs demand
@@ -123,9 +138,11 @@ Based on these results, the tuned **XGBoost** model was selected as the final mo
 
 ## Tableau Dashboards:
 
-![Screenshot 2026-01-15 at 12.49.38 AM.png](attachment:4ceedb42-09cc-4fef-87cb-a6f70a28cab5:Screenshot_2026-01-15_at_12.49.38_AM.png)
+<img width="998" height="700" alt="Screenshot 2026-01-15 at 12 49 38 AM" src="https://github.com/user-attachments/assets/1fde81cd-8a54-4f88-a394-c4624ac4b7e3" />
 
-![Screenshot 2026-01-15 at 12.50.08 AM.png](attachment:3f568a3f-9388-4164-930c-cac32158d6e7:Screenshot_2026-01-15_at_12.50.08_AM.png)
+
+
+<img width="990" height="692" alt="Screenshot 2026-01-15 at 12 50 08 AM" src="https://github.com/user-attachments/assets/8b9bbdb4-84ee-46f9-8875-569f22da7c12" />
 
 What TalentSense answers?
 
