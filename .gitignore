@@ -1,0 +1,43 @@
+# --- BIG DATA (do not push to GitHub) ---
+*.csv
+*.parquet
+*.pkl
+*.pickle
+final_cleaned_data
+
+# Jupyter
+.ipynb_checkpoints/
+iframe_figures/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+# --- BIG DATA (do not push to GitHub) ---
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+iframe_figures/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+
+
+
