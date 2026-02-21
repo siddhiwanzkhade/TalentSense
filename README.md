@@ -36,7 +36,7 @@ TalentSense is a data-driven analytics project designed to bring clarity to mess
 - Applies
 - monthly_salary_usd
 
-**Challenge:** Salary data appeared in **mixed formats** (hourly, annual, contract-based), which requiring extensive cleaning and normalization before analysis.
+**Challenge:** Salary data appeared in **mixed formats** (hourly, annual, contract-based), which required extensive cleaning and normalization before analysis.
 
 ## **Tech Stack**
 
